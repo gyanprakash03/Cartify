@@ -1,6 +1,6 @@
 # Shopping Cart (Cartify)
 
-The Shopping Cart, also known as [Cartify], is a simple web application built to understand the concept of using redux toolkit with React.js. It demonstrates the basic functionality of a shopping cart, allowing users to add and remove products, calculate quantity and total price of cart and checkout. The application utilizes React and Tailwind CSS to create a responsive and user-friendly interface.
+The Shopping Cart, also known as Cartify[https://cartify-eta.vercel.app/], is a simple web application built to understand the concept of using redux toolkit with React.js. It demonstrates the basic functionality of a shopping cart, allowing users to add and remove products, calculate quantity and total price of cart and checkout. The application utilizes React and Tailwind CSS to create a responsive and user-friendly interface.
 
 ## Features
 
