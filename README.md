@@ -22,10 +22,6 @@ git clone https://github.com/gyanprakash03/Cartify.git
 
 2. Navigate to the project directory:
 
-```bash
-cd shopping-cart
-```
-
 3. Install the dependencies:
 
 ```bash
