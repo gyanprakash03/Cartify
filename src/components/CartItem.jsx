@@ -12,9 +12,9 @@ const CartItem = ({item, itemIndex}) => {
   }
 
   return (
-    <div className="flex flex-col w-[450px] mt-6  justify-center items-center gap-16 h-[180px] rounded-lg shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] ">
-      <div className=" flex justify-between mt-8 h-[200px] w-[400px]  ">
-        <div className="">
+    <div className="flex flex-col sm:flex-row lg:w-[65%] md:w-[95%] mt-6  justify-center items-center gap-16 h-fit rounded-lg shadow-[-10px_-10px_30px_4px_rgba(0,0,0,0.1),_10px_10px_30px_4px_rgba(45,78,255,0.15)] ">
+      <div className=" flex sm:flex-row flex-col sm:justify-between justify-center items-center mt-8 h-fit w-[92%] ">
+        <div className="pb-8 sm:pb-0">
           <img src={item.image} className=" mt-4 h-[120px]" alt="" />
         </div>
         <div className="h-[180px] ">

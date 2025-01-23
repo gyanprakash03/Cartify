@@ -19,9 +19,9 @@ const Cart = () => {
   {
     cart.length > 0  ? 
     
-    (<div className="flex gap-16 max-w-6xl p-6 mx-auto flex-wrap lg:flex-nowrap">
+    (<div className="flex gap-16 lg:justify-between md:justify-evenly max-w-6xl p-6 mx-auto flex-wrap lg:flex-nowrap items-center justify-center">
 
-      <div className="lg:w-[70%]">
+      <div className="lg:w-[70%] md:w-[60%] w-[85%]">
         {
           cart.map( (item,index) => {
             return <CartItem key={item.id} item={item} itemIndex={index} />
@@ -29,7 +29,7 @@ const Cart = () => {
         }
       </div>
 
-      <div className="md:w-[30%] w-full flex flex-col gap-8 justify-between">
+      <div className="md:w-[30%] w-full flex flex-col gap-14 md:self-start justify-between text-center md:text-start">
 
         <div className="mt-20">
 

@@ -18,7 +18,7 @@ const Product = ({post}) => {
   }
 
   return (
-    <div className="flex flex-col items-center justify-between 
+    <div className="flex flex-col items-center justify-between w-[88%]
     hover:scale-105 transition duration-400 ease-in  gap-3 p-4 mt-10
     ml-5 rounded-lg shadow-xl shadow-blue-300 hover:shadow-2xl hover:shadow-blue-950 bg-white">
       <div>

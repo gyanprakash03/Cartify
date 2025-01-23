@@ -16,8 +16,4 @@ root.render(
           <Toaster/>  
         </Provider>
     </BrowserRouter>
-
-
-
-  
 );
